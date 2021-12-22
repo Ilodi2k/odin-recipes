@@ -1,0 +1,31 @@
+* {
+    font-family: "odinsonregular";
+    font-size: 40px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'odinsonregular';
+    src: url('fonts/odinson-224w-webfont.woff2') format('woff2'),
+         url('/fonts/odinson-224w-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ul {
+    list-style-type: none;
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+a {
+    font-size: 40px;
+    transition: font-size 0.5s, background-color 1s;
+}
+
+a:hover {
+    font-size: 60px;
+    background-color: sandybrown;
+}
